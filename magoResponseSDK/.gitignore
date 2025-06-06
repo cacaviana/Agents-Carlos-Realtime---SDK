@@ -1,0 +1,59 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log
+
+# SvelteKit build outputs
+.svelte-kit/
+build/
+dist/
+
+# Vite (usado internamente pelo SvelteKit)
+.vite/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs e processos
+logs/
+*.log
+*.pid
+*.pid.lock
+pids/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# MacOS, Linux e Windows lixo comum
+*.swp
+*.lock
+*.bak
+*.tmp
+*.old
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint, Prettier, etc.
+.eslintcache
+
+# Test runners
+.playwright/
+test-results/
